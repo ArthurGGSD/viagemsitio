@@ -1,0 +1,132 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5vw;
+    color:black;
+    background-color: rgb(113, 167, 125);
+    text-align:center;
+    margin:unset;
+
+    height: 100vh;
+    background-color: rgb(113, 167, 125);
+    background-image: url(natureza.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color:rgb(116, 159, 224) ;
+    height: 20vw;
+    width: 100%;
+    line-height: 20vw;
+    position: fixed;
+    box-shadow: 5px 5px 15px black;
+    z-index: 1;
+}
+
+a {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    text-decoration: none;
+    color: rgb(6, 45, 136);
+    transition: 250ms linear; 
+    padding: 0.5vw;
+    border-radius: 25px;
+}
+
+a:hover {
+    color: purple;
+    font-size: 5.3vw;
+    background-color:rgb(96, 143, 214);
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.img {
+    border-radius: 50%;
+}
+
+p {
+    position: relative;
+    background-color:  #5FB6D9;
+    width:70vw;
+    border-radius: 75px;
+    padding: 1%;
+    font-size: 4vw;
+    box-shadow: 7px 7px 15px;
+}
+
+p.a {
+    left: 14%;
+    bottom: 1vw;
+}
+
+p.b {
+    left: 14%;
+    top: 10vw;
+}
+
+p.c {
+    left: 14%;
+    top: 10.5vw;
+}
+
+p.d {
+    left: 14%;
+    top: 10vw;
+}
+
+p.f {
+    left: 14%;
+    top: 28vw;
+}
+
+
+p.g {
+    left: 14%;
+    top: 25vw;
+}
+
+.conjunto {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 110vw;
+    top: 140vw;
+    z-index: -1;
+    border-radius: 50px;
+    border: 0.5vw solid antiquewhite;
+    box-shadow: 7px 7px 15px;
+}
+
+.conjunto2 {
+    position: absolute;
+    border: 0.5vw solid antiquewhite;
+    font-size: unset;
+    left: 10%;
+    width: 80%;
+    height: 70vw;
+    top: 265vw;
+    z-index: -1;
+    border-radius: 50px;
+    box-shadow: 7px 7px 15px;
+}
+
+.valores {
+    position: relative;
+    top: 30vw;
+    left: 40vw;
+    color: white;
+    font-size: 10vw;
+    width: max-content;
+}
+
+.viagem {
+    position: relative;
+    top: 10vw;
+    left: 40vw;
+    color: white;
+    font-size: 10vw;
+    width:max-content;
+}
