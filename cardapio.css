@@ -1,0 +1,91 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.39vw;
+    color:black;
+    text-align:center;
+    margin:unset;
+
+    height: 100vh;
+    background-color: rgb(113, 167, 125);
+    background-image: url(natureza.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+
+    background-image: url(fundo-cabeçario.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    top: 0vw ;
+    background-color:rgb(116, 159, 224) ;
+    height: 5vw;
+    width: 100%;
+    line-height: 5vw;
+    position: fixed;
+    box-shadow: 5px 5px 15px black;
+    z-index: 1;
+}
+
+a {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    text-decoration: none;
+    color: rgb(6, 45, 136);
+    transition: 250ms linear; 
+    padding: 0.5vw;
+    border-radius: 25px;
+}
+
+a:hover {
+    color: purple;
+    font-size: 1.45vw;
+    background-color:rgb(96, 143, 214);
+    box-shadow: 5px 5px 5px black;
+}
+
+
+h1 {
+    color: white;
+    margin-top: 10vw;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+    width: 100%;
+}
+
+p {
+    position: relative;
+    background-color: #5FB6D9;
+    width:100%;
+    border-radius: 50px;
+    padding: 1%;
+    font-size: 1.4vw;
+    box-shadow: 7px 7px 15px;
+}
+
+.conjunto1 {
+    position: absolute;
+    width: 22%;
+    right: 10%;
+    
+}
+
+.conjunto2 {
+    position: absolute;
+    width: 22%;
+    right: 39%;
+}
+
+.conjunto3 {
+    position: absolute;
+    width: 22%;
+    left: 10%;
+}
