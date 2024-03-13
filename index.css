@@ -101,11 +101,10 @@ p.g {
 }
 
 .conjunto {
-    position: absolute;
+    position: relative;
     left: 17.5vw;
     width: 65vw;
-    height: 40vw;
-    top: 31vw;
+    height: max-content;
     z-index: -1;
     border-radius: 10vw;
     border: 0.5vw solid antiquewhite;
@@ -113,16 +112,17 @@ p.g {
 }
 
 .conjunto2 {
-    position: absolute;
+    position: relative;
     border: 0.5vw solid antiquewhite;
     font-size: unset;
     left: 25vw;
     width: 50vw;
-    height: 28vw;
-    top: 79vw;
+    height: max-content;
     z-index: -1;
     border-radius: 10vw;
     box-shadow: 7px 7px 15px;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
 }
 
 .valores {
@@ -141,4 +141,9 @@ p.g {
     color: white;
     font-size: 4vw;
     width:max-content;
+}
+
+.espacinho {
+    height: 1vw;
+    width: 1vw;
 }

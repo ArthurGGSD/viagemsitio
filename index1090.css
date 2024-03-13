@@ -94,11 +94,10 @@ p.g {
 }
 
 .conjunto {
-    position: absolute;
+    position: relative;
     left: 15vw;
     width: 70vw;
-    height: 40vw;
-    top: 42vw;
+    height: max-content;
     z-index: -1;
     border-radius: 10vw;
     border: 0.5vw solid antiquewhite;
@@ -106,13 +105,12 @@ p.g {
 }
 
 .conjunto2 {
-    position: absolute;
+    position: relative;
     border: 0.5vw solid antiquewhite;
     font-size: unset;
     left: 22.5vw;
     width: 55vw;
-    height: 28vw;
-    top: 90vw;
+    height: max-content;
     z-index: -1;
     border-radius: 10vw;
     box-shadow: 7px 7px 15px;
