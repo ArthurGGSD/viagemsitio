@@ -18,7 +18,7 @@ body {
 header {
     background-color:rgb(116, 159, 224) ;
     height: 20vw;
-    width: 100%;
+    width: 100vw;
     line-height: 20vw;
     position: fixed;
     box-shadow: 5px 5px 15px black;
@@ -42,60 +42,55 @@ a:hover {
     box-shadow: 5px 5px 5px black;
 }
 
-
-.img {
-    border-radius: 50%;
-}
-
 p {
     position: relative;
     background-color:  #5FB6D9;
     width:70vw;
     border-radius: 75px;
-    padding: 1%;
+    padding: 1vw;
     font-size: 4vw;
     box-shadow: 7px 7px 15px;
 }
 
 p.a {
-    left: 14%;
+    left: 14vw;
     bottom: 1vw;
 }
 
 p.b {
-    left: 14%;
-    top: 10vw;
+    left: 4vw;
+    top: -10vw;
 }
 
 p.c {
-    left: 14%;
-    top: 10.5vw;
+    left: 4vw;
+    top: -10vw;
 }
 
 p.d {
-    left: 14%;
-    top: 10vw;
+    left: 4vw;
+    top: -10vw;
 }
 
 p.f {
-    left: 14%;
-    top: 28vw;
+    left: 4vw;
+    top: -10vw;
 }
 
 
 p.g {
-    left: 14%;
-    top: 25vw;
+    left: 4vw;
+    top: -10vw;
 }
 
 .conjunto {
     position: absolute;
-    left: 10%;
-    width: 80%;
+    left: 10vw;
+    width: 80vw;
     height: 110vw;
     top: 140vw;
     z-index: -1;
-    border-radius: 50px;
+    border-radius: 10vw;
     border: 0.5vw solid antiquewhite;
     box-shadow: 7px 7px 15px;
 }
@@ -104,19 +99,19 @@ p.g {
     position: absolute;
     border: 0.5vw solid antiquewhite;
     font-size: unset;
-    left: 10%;
-    width: 80%;
+    left: 10vw;
+    width: 80vw;
     height: 70vw;
     top: 265vw;
     z-index: -1;
-    border-radius: 50px;
+    border-radius: 10vw;
     box-shadow: 7px 7px 15px;
 }
 
 .valores {
     position: relative;
-    top: 30vw;
-    left: 40vw;
+    top: -2vw;
+    left: 30vw;
     color: white;
     font-size: 10vw;
     width: max-content;
@@ -124,8 +119,8 @@ p.g {
 
 .viagem {
     position: relative;
-    top: 10vw;
-    left: 40vw;
+    top: -2vw;
+    left: 30vw;
     color: white;
     font-size: 10vw;
     width:max-content;

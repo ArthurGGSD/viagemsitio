@@ -25,7 +25,7 @@ header {
 
     background-color:rgb(116, 159, 224) ;
     height: 5vw;
-    width: 100%;
+    width: 100vw;
     line-height: 5vw;
     position: fixed;
     box-shadow: 5px 5px 15px black;
@@ -59,18 +59,13 @@ a:hover {
     height: 52vw;
 }
 
-
-.img {
-    border-radius: 50%;
-}
-
 p {
     position: relative;
     background-color:  #5FB6D9;
-    width:22%;
-    border-radius: 50px;
-    padding: 1%;
-    left: 38%;
+    width:22vw;
+    border-radius: 10vw;
+    padding: 1vw;
+    left: 38vw;
     font-size: 1.4vw;
     box-shadow: 7px 7px 15px;
 }
@@ -80,39 +75,39 @@ p.a {
 }
 
 p.b {
-    left: 25%;
+    left: 6vw;
     bottom: 1.9vw;
 }
 
 p.c {
-    left: 53%;
+    left: 38vw;
     bottom: 6vw;
 }
 
 p.d {
-    left: 20%;
+    left: 8vw;
     bottom: 12vw;
 }
 
 p.f {
-    left: 30%;
+    left: 3vw;
     bottom: 7vw;
 }
 
 
 p.g {
-    left: 42%;
+    left: 13vw;
     bottom: 7vw;
 }
 
 .conjunto {
     position: absolute;
-    left: 17.5%;
-    width: 65%;
+    left: 17.5vw;
+    width: 65vw;
     height: 40vw;
     top: 31vw;
     z-index: -1;
-    border-radius: 50px;
+    border-radius: 10vw;
     border: 0.5vw solid antiquewhite;
     box-shadow: 7px 7px 15px;
 }
@@ -121,19 +116,19 @@ p.g {
     position: absolute;
     border: 0.5vw solid antiquewhite;
     font-size: unset;
-    left: 25%;
-    width: 50%;
+    left: 25vw;
+    width: 50vw;
     height: 28vw;
     top: 79vw;
     z-index: -1;
-    border-radius: 50px;
+    border-radius: 10vw;
     box-shadow: 7px 7px 15px;
 }
 
 .valores {
     position: relative;
     top: 3.5vw;
-    left: 57%;
+    left: 30vw;
     color: white;
     font-size: 4vw;
     width: max-content;
@@ -142,7 +137,7 @@ p.g {
 .viagem {
     position: relative;
     top: 3vw;
-    left: 51%;
+    left: 42vw;
     color: white;
     font-size: 4vw;
     width:max-content;

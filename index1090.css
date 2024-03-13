@@ -18,7 +18,7 @@ body {
 header {
     background-color:rgb(116, 159, 224) ;
     height: 10vw;
-    width: 100%;
+    width: 100vw;
     line-height: 10vw;
     position: fixed;
     box-shadow: 5px 5px 15px black;
@@ -32,7 +32,7 @@ a {
     color: rgb(6, 45, 136);
     transition: 250ms linear; 
     padding: 0.5vw;
-    border-radius: 25px;
+    border-radius: 5vw;
 }
 
 a:hover {
@@ -52,18 +52,13 @@ a:hover {
     height: 52vw;
 }
 
-
-.img {
-    border-radius: 50%;
-}
-
 p {
     position: relative;
     background-color:  #5FB6D9;
     width:max-content;
-    border-radius: 25px;
+    border-radius: 5vw;
     padding: 1%;
-    left: 38%;
+    left: 38vw;
     font-size: 1.8vw;
     box-shadow: 7px 7px 15px;
 }
@@ -73,39 +68,39 @@ p.a {
 }
 
 p.b {
-    left: 25%;
-    bottom: 1.9vw;
+    left: 7vw;
+    bottom: 3vw;
 }
 
 p.c {
-    left: 53%;
-    bottom: 6vw;
+    left: 35vw;
+    bottom: 8vw;
 }
 
 p.d {
-    left: 20%;
-    bottom: 12vw;
+    left: 2vw;
+    bottom: 15vw;
 }
 
 p.f {
-    left: 25%;
+    left: 7vw;
     bottom: 9vw;
 }
 
 
 p.g {
-    left: 37%;
+    left: 19vw;
     bottom: 9vw;
 }
 
 .conjunto {
     position: absolute;
-    left: 15%;
-    width: 70%;
+    left: 15vw;
+    width: 70vw;
     height: 40vw;
     top: 42vw;
     z-index: -1;
-    border-radius: 50px;
+    border-radius: 10vw;
     border: 0.5vw solid antiquewhite;
     box-shadow: 7px 7px 15px;
 }
@@ -114,19 +109,19 @@ p.g {
     position: absolute;
     border: 0.5vw solid antiquewhite;
     font-size: unset;
-    left: 22.5%;
-    width: 55%;
+    left: 22.5vw;
+    width: 55vw;
     height: 28vw;
     top: 90vw;
     z-index: -1;
-    border-radius: 50px;
+    border-radius: 10vw;
     box-shadow: 7px 7px 15px;
 }
 
 .valores {
     position: relative;
     top: 3vw;
-    left: 57%;
+    left: 39vw;
     color: white;
     font-size: 4vw;
     width: max-content;
@@ -134,8 +129,8 @@ p.g {
 
 .viagem {
     position: relative;
-    top: 3vw;
-    left: 51%;
+    top: 0vw;
+    left: 33vw;
     color: white;
     font-size: 4vw;
     width:max-content;
