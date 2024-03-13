@@ -10,7 +10,7 @@ body {
     background-color: rgb(113, 167, 125);
     background-image: url(natureza.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:cover; 
     background-position: center center;
     background-attachment: fixed;
 }
@@ -32,7 +32,7 @@ a {
     color: rgb(6, 45, 136);
     transition: 250ms linear; 
     padding: 0.5vw;
-    border-radius: 25px;
+    border-radius: 5vw;
 }
 
 a:hover {
@@ -57,15 +57,11 @@ h2 {
     margin-top: 30vw;
 }
 
-.img {
-    border-radius: 50%;
-}
-
 p {
     position: relative;
     background-color:  #5FB6D9;
     width:70vw;
-    border-radius: 75px;
+    border-radius: 15vw;
     padding: 1%;
     font-size: 4vw;
     box-shadow: 7px 7px 15px;

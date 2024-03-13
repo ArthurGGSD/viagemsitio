@@ -14,7 +14,7 @@ body {
     background-attachment: fixed;
 }
 
-header {
+header { 
 
     background-image: url(fundo-cabeçario.png);
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ a {
     color: rgb(6, 45, 136);
     transition: 250ms linear; 
     padding: 0.5vw;
-    border-radius: 25px;
+    border-radius: 5vw;
 }
 
 a:hover {
@@ -65,7 +65,7 @@ p {
     position: relative;
     background-color: #5FB6D9;
     width:100%;
-    border-radius: 50px;
+    border-radius: 10vw;
     padding: 1%;
     font-size: 1.4vw;
     box-shadow: 7px 7px 15px;
