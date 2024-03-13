@@ -87,7 +87,7 @@ p.g {
     position: absolute;
     left: 10vw;
     width: 80vw;
-    height: 110vw;
+    height: max-content;
     top: 140vw;
     z-index: -1;
     border-radius: 10vw;
@@ -101,7 +101,7 @@ p.g {
     font-size: unset;
     left: 10vw;
     width: 80vw;
-    height: 70vw;
+    height: max-content;
     top: 265vw;
     z-index: -1;
     border-radius: 10vw;
